@@ -14,3 +14,10 @@ print(a+10)
 
 Output: 
 25
+
+3. Algorithm:
+b="hatimloha"
+print(b)
+
+Output: 
+hatimloha
