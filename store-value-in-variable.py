@@ -1,5 +1,5 @@
 #Store value in variable 
-#"a" is variable 
+#"a & b" are variable 
 
 1. Algorithm:
 a=15
