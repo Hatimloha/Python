@@ -19,4 +19,16 @@ hello
 3.14
 True
 
+#Creating a tuple: 
+#Immutable Data Structures: Tuples are immutable, meaning their elements cannot be changed after creation. This makes them suitable for representing fixed collections of items that should not be modified.
+3. Algorithm:
+my_tuple = (1, 'hello', 3.14, True)
+print(my_tuple)
+
+Output: 
+(1, 'hello', 3.14, True)
+
+
+
+
 
