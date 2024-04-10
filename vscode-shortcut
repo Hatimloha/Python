@@ -1,0 +1,6 @@
+#1. Remove whole line at once
+-> Ctrl + x
+#2. Remove a single word or number
+-> Ctrl + backspace
+#3. "#" comment and uncomment
+-> Ctrl + /
