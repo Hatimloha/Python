@@ -18,3 +18,11 @@ print("the sum of both number is:", sum)
 
 Output: 
 the sum of both number is: 25
+
+3.Algorithm
+c = 9.1
+b = 8
+print(c + b)
+
+Output: 
+17.1 (output is in "float" datatype that is called implicity)
