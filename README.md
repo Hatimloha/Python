@@ -1,6 +1,5 @@
 ### Welcome to the Python Scripts Repository! This public repository is dedicated to hosting a collection of Python scripts for learners like yourself to explore, analyze, and learn from. Whether you're new to Python or looking to expand your scripting skills, you'll find a variety of scripts here covering different topics and applications.
-```
-```
+
 # Key Features:
 ```
 1. Script Library: Browse through a curated collection of Python scripts covering various domains such as data manipulation, web scraping, automation, text processing, and more.
