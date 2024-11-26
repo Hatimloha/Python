@@ -1,11 +1,8 @@
 # Creating a Markdown file with Python functions, descriptions, and examples
 
-content = """
-# Python Built-in Functions
-
-This document contains a list of commonly used Python built-in functions with descriptions and examples.
-
----
+## content = """
+### Python Built-in Functions
+> This document contains a list of commonly used Python built-in functions with descriptions and examples.
 
 ## 1. **len()**
 - **Description**: Returns the number of items in an object (e.g., string, list, tuple, etc.).
@@ -14,6 +11,7 @@ This document contains a list of commonly used Python built-in functions with de
   ```python
   my_list = [1, 2, 3]
   print(len(my_list))  # Output: 3
+  ```
 2. split()
 Description: Splits a string into a list of substrings based on a delimiter.
 Syntax: string.split(delimiter)
