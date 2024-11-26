@@ -1,6 +1,6 @@
 # Creating a Markdown file with Python functions, descriptions, and examples
 
-## content = """
+## content
 ### Python Built-in Functions
 > This document contains a list of commonly used Python built-in functions with descriptions and examples.
 
