@@ -12,88 +12,77 @@
   my_list = [1, 2, 3]
   print(len(my_list))  # Output: 3
   ```
-2. split()
+## 2. **split()**
 Description: Splits a string into a list of substrings based on a delimiter.
 Syntax: string.split(delimiter)
 Example:
-python
-Always show details
-
-Copy code
+```python
 text = "Hello World"
 print(text.split())  # Output: ['Hello', 'World']
-3. append()
+```
+
+## 3. **append()**
 Description: Adds an item to the end of a list.
 Syntax: list.append(item)
 Example:
-python
-Always show details
-
-Copy code
+```python
 my_list = [1, 2, 3]
 my_list.append(4)
 print(my_list)  # Output: [1, 2, 3, 4]
-4. remove()
+```
+## 4. **remove()**
 Description: Removes the first occurrence of a specified value from a list.
 Syntax: list.remove(value)
 Example:
-python
-Always show details
-
-Copy code
+```python
 my_list = [1, 2, 3, 2]
 my_list.remove(2)
 print(my_list)  # Output: [1, 3, 2]
-5. list()
+```
+## 5. **list()**
 Description: Creates a list from an iterable (e.g., string, tuple, etc.).
 Syntax: list(iterable)
 Example:
-python
-Always show details
-
-Copy code
+```python
 my_tuple = (1, 2, 3)
 print(list(my_tuple))  # Output: [1, 2, 3]
-6. max()
+```
+## 6. **max()**
 Description: Returns the largest item in an iterable or among arguments.
 Syntax: max(iterable) or max(arg1, arg2, ...)
 Example:
-python
-Always show details
-
-Copy code
+```python
 numbers = [1, 2, 3, 4]
 print(max(numbers))  # Output: 4
-7. min()
+```
+
+## 7. **min()**
 Description: Returns the smallest item in an iterable or among arguments.
 Syntax: min(iterable) or min(arg1, arg2, ...)
 Example:
-python
-Always show details
-
-Copy code
+```python
 numbers = [1, 2, 3, 4]
 print(min(numbers))  # Output: 1
-8. sorted()
+```
+
+## 8. **sorted()**
 Description: Returns a sorted list from the elements of an iterable.
 Syntax: sorted(iterable, key=None, reverse=False)
 Example:
-python
-Always show details
-
-Copy code
+```python
 numbers = [4, 2, 1, 3]
 print(sorted(numbers))  # Output: [1, 2, 3, 4]
-9. range()
+```
+
+## 9. **range()**
 Description: Generates a sequence of numbers.
 Syntax: range(start, stop, step)
 Example:
-python
-Always show details
-
-Copy code
+```python
 for i in range(1, 5):
     print(i)  # Output: 1, 2, 3, 4
+```
+
 10. type()
 Description: Returns the type of an object.
 Syntax: type(object)
