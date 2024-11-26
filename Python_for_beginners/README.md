@@ -126,49 +126,43 @@ numbers = [1, 2, 3]
 print(list(map(square, numbers)))  # Output: [1, 4, 9]
 ```
 
-14. filter()
+## 14. filter()
 Description: Filters items in an iterable based on a function.
 Syntax: filter(function, iterable)
 Example:
-python
-Always show details
-
-Copy code
+```python
 def is_even(x):
     return x % 2 == 0
 
 numbers = [1, 2, 3, 4]
 print(list(filter(is_even, numbers)))  # Output: [2, 4]
-15. zip()
+```
+
+## 15. zip()
 Description: Combines multiple iterables into tuples.
 Syntax: zip(iterable1, iterable2, ...)
 Example:
-python
-Always show details
-
-Copy code
+```python
 names = ['Alice', 'Bob']
 scores = [85, 90]
 print(list(zip(names, scores)))  # Output: [('Alice', 85), ('Bob', 90)]
-16. enumerate()
+```
+
+## 16. enumerate()
 Description: Adds an index to each item in an iterable.
 Syntax: enumerate(iterable, start=0)
 Example:
-python
-Always show details
-
-Copy code
+```python
 fruits = ['apple', 'banana']
 for index, fruit in enumerate(fruits):
     print(index, fruit)
-17. round()
+```
+
+## 17. round()
 Description: Rounds a number to a specified number of decimal places.
 Syntax: round(number, ndigits)
 Example:
-python
-Always show details
-
-Copy code
+```python
 print(round(3.14159, 2))  # Output: 3.14
 This list provides a basic understanding of Python's built-in functions. You can explore more in the Python Documentation. """
 
@@ -176,3 +170,4 @@ Save to a Markdown file
 file_path = "/mnt/data/Python_Functions_Guide.md" with open(file_path, "w") as md_file: md_file.write(content)
 
 file_path
+```
