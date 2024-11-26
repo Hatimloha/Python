@@ -164,10 +164,4 @@ Syntax: round(number, ndigits)
 Example:
 ```python
 print(round(3.14159, 2))  # Output: 3.14
-This list provides a basic understanding of Python's built-in functions. You can explore more in the Python Documentation. """
-
-Save to a Markdown file
-file_path = "/mnt/data/Python_Functions_Guide.md" with open(file_path, "w") as md_file: md_file.write(content)
-
-file_path
 ```
