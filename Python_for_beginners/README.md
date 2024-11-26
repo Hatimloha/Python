@@ -12,6 +12,7 @@
   my_list = [1, 2, 3]
   print(len(my_list))  # Output: 3
   ```
+  
 ## 2. **split()**
 Description: Splits a string into a list of substrings based on a delimiter.
 Syntax: string.split(delimiter)
@@ -30,6 +31,7 @@ my_list = [1, 2, 3]
 my_list.append(4)
 print(my_list)  # Output: [1, 2, 3, 4]
 ```
+
 ## 4. **remove()**
 Description: Removes the first occurrence of a specified value from a list.
 Syntax: list.remove(value)
@@ -39,6 +41,7 @@ my_list = [1, 2, 3, 2]
 my_list.remove(2)
 print(my_list)  # Output: [1, 3, 2]
 ```
+
 ## 5. **list()**
 Description: Creates a list from an iterable (e.g., string, tuple, etc.).
 Syntax: list(iterable)
@@ -47,6 +50,7 @@ Example:
 my_tuple = (1, 2, 3)
 print(list(my_tuple))  # Output: [1, 2, 3]
 ```
+
 ## 6. **max()**
 Description: Returns the largest item in an iterable or among arguments.
 Syntax: max(iterable) or max(arg1, arg2, ...)
@@ -83,49 +87,45 @@ for i in range(1, 5):
     print(i)  # Output: 1, 2, 3, 4
 ```
 
-10. type()
+## 10. **type()**
 Description: Returns the type of an object.
 Syntax: type(object)
 Example:
-python
-Always show details
-
-Copy code
+```python
 num = 5
 print(type(num))  # Output: <class 'int'>
-11. input()
+```
+
+## 11. **input()**
 Description: Reads a line of text input from the user.
 Syntax: input(prompt)
 Example:
-python
-Always show details
-
-Copy code
+```python
 name = input("Enter your name: ")
 print(f"Hello, {name}!")
-12. sum()
+```
+
+## 12. **sum()**
 Description: Adds all items in an iterable.
 Syntax: sum(iterable, start=0)
 Example:
-python
-Always show details
-
-Copy code
+```python
 numbers = [1, 2, 3]
 print(sum(numbers))  # Output: 6
-13. map()
+```
+
+## 13. **map()**
 Description: Applies a function to all items in an iterable.
 Syntax: map(function, iterable)
 Example:
-python
-Always show details
-
-Copy code
+```python
 def square(x):
     return x * x
 
 numbers = [1, 2, 3]
 print(list(map(square, numbers)))  # Output: [1, 4, 9]
+```
+
 14. filter()
 Description: Filters items in an iterable based on a function.
 Syntax: filter(function, iterable)
